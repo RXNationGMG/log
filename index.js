@@ -14,8 +14,8 @@ var db = require('quick.db');
 client.on('ready', async function () {
     console.log(`ready, logged in as ${client.user.tag}`);
     setInterval(() => {
-        client.user.setActivity(`-help | in ${client.guilds.size} servers`, {
-            type: "WATCHING"
+        client.user.setActivity(`-help | in ${client.guilds.size} servers & Subscribe To Roblox Nation Gaming For More Videos Tnks :D`, {
+            type: "PLAYING"
         });
     }, 16000);
 });
