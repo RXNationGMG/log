@@ -8,7 +8,7 @@ var config = require('./config.json');
 var discord = require('discord.js');
 var client = new discord.Client();
 var fs = require('fs');
-var prefix = '-';
+var prefix = '!';
 var db = require('quick.db');
 
 client.on('ready', async function () {
